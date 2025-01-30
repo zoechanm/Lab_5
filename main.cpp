@@ -1,0 +1,251 @@
+ // #include <iostream>
+ // using namespace std;
+ //
+ // int main() {
+     //     //problem 1.1
+     //     // cout << "Natural numbers: ";
+     //     // for (int i = 1; i <= 10; i++) {
+     //     //     cout << i << " ";
+     //     // }
+     //     //problem 1.2
+     //     // int N;
+     //     // cout<<"Enter a number: ";
+     //     // cin>>N;
+     //     // for (int i=1; i<=N; i++) {
+     //     //     cout<<i<<" ";
+     //     // }
+     //
+     //     //problem 1.3
+     //     // int sum10=0;
+     //     // for (int i=1;i<=10;i++) {
+     //     //     sum10+=i;
+     //     // }
+     //     // cout<<"sum of 10 numbers:"<<sum10<<endl;
+     //
+     //     //problem 1.4
+     //     // int N,sum;
+     //     // cout<<"enter a number:";
+     //     // cin>>N;
+     //     // for (int i=1;i<=N;i++) {
+     //     //     sum+=i;
+     //     // }
+     //     // cout<<"sum:"<<sum<<endl;
+     //
+     // //problem 1.5
+     // //     int sum;
+     // //     float avg;
+     // //     for ( int i=1;i<=10;i++) {
+     // //         sum+=i;
+     // //         avg=sum/10.0;
+     // //     }
+     // // cout<<"Average:"<<avg<<endl;
+     //
+     // //problem 1.6
+     //     // int N,sum;
+     //     // float avg;
+     //     // cout<<"Enter a number:";
+     //     // cin>>N;
+     //     // for (int i=1;i<=N;i++) {
+     //     //     sum+=i;
+     //     //     avg=sum/N;
+     //     // }
+     //     // cout<<"Average:"<<avg<<endl;
+     //
+     // //problem 2.1
+     //    // cout<<"odd numbers:";
+     //    //  for (int i=1;i<=10;i+=2) {
+     //    //     cout<<i<<"  ";
+     //    //  }
+     //
+     // //problem 2.2
+     //     // cout<<"even numbers:";
+     //     // for (int i=2;i<=10;i+=2) {
+     //     //     cout<<" "<<i;
+     //     // }
+     //
+     // //problem 2.3
+     //     // int N;
+     //     // cout<<"enter a number: ";
+     //     // cin>>N;
+     //     // for (int i=1;i<=N;i+=2) {
+     //     //     cout<<" "<<i;
+     //     // }
+     //
+     // //problem 2.4
+     //     // int N;
+     //     // cout << "Enter number: ";
+     //     // cin>>N;
+     //     // for (int i=2;i<=N;i+=2) {
+     //     //     cout<<" "<<i;
+     //     // }
+     //
+     //     //problem 2.5
+     //     //  for (int i=10;i<=100;i+=10) {
+     //     //      cout<<i<<" ";
+     //     // }
+     //
+     //     //problem 2.6
+     // // int N;
+     // //     cout<<"Enter a number:";
+     // //     cin>>N;
+     // //     for (int i=10; i<=N;i+=10) {
+     // //         cout<<" "<<i;
+     // //     }
+     //
+     // //problem 3
+     // // int count=0;
+     // //      for (char ch = 'A'; ch <= 'Z'; ch++) {
+     // //          cout << ch << " ";
+     // //          count++;
+     // //
+     // //     if (count % 5 == 0) {
+     // //         cout << endl;
+     // //     }
+     // //     }
+     //
+     //     //problem 4
+     //     // int N,factorial=1;
+     //     // cout<<"Enter a number: ";
+     //     // cin>>N;
+     //     // for (int i=1;i<=N;i++) {
+     //     //     factorial*=i;
+     //     // }
+     //     // cout << "Factorial of " <<N<< " is " << factorial << endl;
+     //
+     // //problem 5
+     //
+     //     // int classes;
+     //     // cin >> classes;
+     //     // int cedit;
+     //     // double mark, sum_mark=0,sum_credit=0;
+     //     // for (int i = 0; i < classes; i++) {
+     //     // cin >> cedit>>mark;
+     //     //     sum_credit += cedit;
+     //     //     sum_mark += mark;
+     //     // }
+     //     //   cout<<"Total mark: "<<sum_credit/sum_mark;
+     //
+     // // problem 6
+     //int classes, credit, tc=0;
+     // int students;
+     // double mark, total=0,gpat=0;
+     // cout<<"Enter number of students: ";
+     // cin>>students;
+     // cout<<"Enter total classes: ";
+     // cin>>classes;
+     //
+     // for (int i=0; i<students; i++) {
+     //     for (int j = 0; j < classes; j++) {
+     //         cout<<"Enter the number of credits and marks "<<j+1<<": ";
+     //         cin >> credit >> mark;
+     //         total += mark*credit;
+     //         tc+=credit;
+     //     }
+     //     double GPA = (total)/tc;
+     //     gpat += GPA;
+     // }
+     // cout << gpat/students << endl;    }
+
+     // problem 7
+     // int lines;
+     // cin >> lines;
+     // for (int i = 0; i < lines; i++) {
+     //     for (int j = 0; j < lines; j++) {
+     //         cout << "*";
+     //     }
+     //     cout << endl;
+     // }
+
+     // problem 8
+     // int lines;
+     // cin >> lines;
+     // for (int i = 0; i < lines; i++) {
+     //     for (int j = 0; j <= i; j++) {
+     //         cout << "* ";
+     //     }
+     //     cout << endl;
+     // }
+
+     // problem 9
+     // int num, i;
+     // bool prime = true;
+     // cout << "Enter a number: "; cin >> num;
+     // if (num <= 1) prime = false;
+     // else {
+     //     for (i = 2; i * i <= num; i++) {
+     //         if (num % i == 0) {
+     //             prime = false;
+     //             break;
+     //         }
+     //     }
+     // }
+     // cout << num << (prime ? " is a prime number." : " is not a prime number.") << endl;
+
+     // problem 10
+     // int n, sum=0;
+     // cout << "Enter a number: "; cin >> n;
+     // for (int i = 1; i <= n; i++) {
+     //     cout << i << "*" << i << "=" << i * i << endl;
+     //     sum += i * i;
+     // }
+
+     // problem 11
+     // int n, negative=0, positive=0;
+     // float sum=0;
+     // while (true) {
+     //     cin>>n;
+     //     sum+=n;
+     //     if(n==0) {
+     //         break;
+     //     }
+     //     if (n<0) {
+     //         negative++;
+     //     }
+     //     else {
+     //         positive++;
+     //     }
+     // }
+     // cout<<"Postive "<<positive<<endl;
+     // cout<<"Negative "<<negative<<endl;
+     // cout<<"Sum "<<sum<<endl;
+     // cout<<"Average "<<sum/(positive+negative)<<endl;
+
+     // problem 12
+     // int n;
+     // cin >> n;
+     // int reversen = 0;
+     // for (int i = 0; i < 100000000; i++) {
+     //     int a=n%10;
+     //     n=n/10;
+     //     reversen = reversen*10+a;
+     //     if(n==0) {
+     //         break;
+     //     }
+     // }
+     // cout << reversen;
+
+     // problem 13
+     // int lines;
+     // cout<<"enter a number:"; cin >> lines;
+     // for (int i = 0; i < lines; i++) {
+     //     for (int j = 0; j <= i; j++) {
+     //         cout << i+1;
+     //     }
+     //     cout << endl;
+     // }
+
+     // problem 14
+ //     int binary, decimal = 0, power = 1;
+ //     cout << "Enter a binary number: ";
+ //     cin >> binary;
+ //     while (binary > 0) {
+ //         int lastDigit = binary % 10;  // Extract last digit
+ //         decimal += lastDigit * power; // Convert to decimal
+ //         binary /= 10;  // Remove last digit
+ //         power *= 2;  // Move to the next power of 2
+ //     }
+ //     cout << "The decimal number is " << decimal << endl;
+ //     return 0;
+ // }
+
+
