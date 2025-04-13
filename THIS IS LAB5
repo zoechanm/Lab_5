@@ -1,7 +1,7 @@
- // #include <iostream>
- // using namespace std;
- //
- // int main() {
+  #include <iostream>
+  using namespace std;
+ 
+  int main() {
      //     //problem 1.1
      //     // cout << "Natural numbers: ";
      //     // for (int i = 1; i <= 10; i++) {
@@ -235,17 +235,17 @@
      // }
 
      // problem 14
- //     int binary, decimal = 0, power = 1;
- //     cout << "Enter a binary number: ";
- //     cin >> binary;
- //     while (binary > 0) {
- //         int lastDigit = binary % 10;  // Extract last digit
- //         decimal += lastDigit * power; // Convert to decimal
- //         binary /= 10;  // Remove last digit
- //         power *= 2;  // Move to the next power of 2
- //     }
- //     cout << "The decimal number is " << decimal << endl;
- //     return 0;
- // }
+      int binary, decimal = 0, power = 1;
+      cout << "Enter a binary number: ";
+      cin >> binary;
+      while (binary > 0) {
+         int lastDigit = binary % 10;  // Extract last digit
+         decimal += lastDigit * power; // Convert to decimal
+          binary /= 10;  // Remove last digit
+         power *= 2;  // Move to the next power of 2
+     }
+      cout << "The decimal number is " << decimal << endl;
+     return 0;
+  }
 
 
